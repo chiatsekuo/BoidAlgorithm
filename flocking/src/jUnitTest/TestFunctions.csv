@@ -1,0 +1,91 @@
+cartesian ,2,5,add,4,1,TRUE,cartesian ,6,6,basic add positive x y and positive x y
+cartesian ,-1,-5,add,2,4,TRUE,cartesian ,1,-1,basic add negative x y and positive x y
+cartesian ,-3,-4,add,-2,-7,TRUE,cartesian ,-5,-11,basic add negative x y and negative x y
+cartesian ,-3,-5,add,0,0,TRUE,cartesian ,-3,-5,basic add negative x y and 0 0
+cartesian ,0,0,add,0,0,TRUE,cartesian ,0,0,basic add 0 0 and 0 0
+cartesian ,2,5,add,0,0,TRUE,cartesian ,2,5,basic add positive x y and 0 0
+cartesian ,-5,-5,add,0,0,TRUE,cartesian ,-5,-5,basic add negative x y and 0 0
+cartesian ,0,0,add,2,5,TRUE,cartesian ,2,5,basic add 0 0 and positive x y
+cartesian ,0,0,add,-5,-5,TRUE,cartesian ,-5,-5,basic add 0 0 and negative x y
+cartesian ,4,7,invert,,,TRUE,cartesian ,-4,-7,basic invert for both positive
+cartesian ,-4,7,invert,,,TRUE,cartesian ,4,-7,basic invert for one negative and one positive
+cartesian ,-4,-7,invert,,,TRUE,cartesian ,4,7,basic invert for both negative
+cartesian ,0,0,invert,,,TRUE,cartesian ,0,0,basic invert for both zeros
+cartesian ,5,0,invert,,,TRUE,cartesian ,-5,0,basic invert for one positive and zero
+cartesian ,2,5,subtract,4,1,TRUE,cartesian ,-2,4,basic subtract positive x y and positive x y
+cartesian ,-1,-5,subtract,2,4,TRUE,cartesian ,-3,-9,basic subtract negative x y and positive x y
+cartesian ,-3,-4,subtract,-2,-7,TRUE,cartesian ,-1,3,basic subtract negative x y and negative x y
+cartesian ,-3,-5,subtract,0,0,TRUE,cartesian ,-3,-5,basic subtract negative x y and 0 0
+cartesian ,0,0,subtract,0,0,TRUE,cartesian ,0,0,basic subtract 0 0 and 0 0
+cartesian ,2,5,subtract,0,0,TRUE,cartesian ,2,5,basic subtract positive x y and 0 0
+cartesian ,-5,-5,subtract,0,0,TRUE,cartesian ,-5,-5,basic subtract negative x y and 0 0
+cartesian ,0,0,subtract,2,5,TRUE,cartesian ,-2,-5,basic subtract 0 0 and positive x y
+cartesian ,0,0,subtract,-5,-5,TRUE,cartesian ,5,5,basic subtract 0 0 and negative x y
+cartesian ,4,6,scale,-6,,TRUE,cartesian ,-3.328,-4.992,basic scale with negative scale
+cartesian ,4,6,scale,6,,TRUE,cartesian ,3.328,4.992,basic scale
+cartesian ,-5,7,scale,6,,TRUE,cartesian ,-3.4874,4.88236,basic scale
+cartesian ,-3,-4,scale,6,,TRUE,cartesian ,-3.6,-4.8,basic scale
+cartesian ,0,0,scale,6,,TRUE,cartesian ,0,0,basic scale
+cartesian ,5,4,scale,0,,TRUE,cartesian ,0,0,basic scale
+cartesian ,0,0,scale,0,,TRUE,cartesian ,0,0,basic scale
+cartesian ,4,6,normalize,,,TRUE,cartesian ,0.5547,0.832,basic normazlize
+cartesian ,-5,7,normalize,,,TRUE,cartesian ,-0.5812,0.8137,basic normazlize
+cartesian ,-3,-4,normalize,,,TRUE,cartesian ,-0.6,-0.8,basic normazlize
+cartesian ,0,0,normalize,,,TRUE,cartesian ,0,0,basic normazlize
+cartesian ,4,0,rotate,2,,,cartesian ,-1.66458,3.637189,basic rotate
+cartesian ,4,0,rotate,-2,,,cartesian ,-1.66458,-3.637189,basic rotate
+cartesian ,0,0,rotate,2,,,cartesian ,0,0,basic rotate
+cartesian ,-3,0,rotate,2,,,cartesian ,1.24844,-2.72789,basic rotate
+cartesian ,4,0,rotate,0,,,cartesian ,4,0,basic rotate
+cartesian ,2.163118961,6.657395614,divide,4,,,cartesian ,0.54077974,1.664348904,basic div
+cartesian ,-3,-4,divide,4,,,cartesian ,-0.75,-1,basic div
+cartesian ,0,0,divide,4,,,cartesian ,0,0,basic div
+cartesian ,4,5,divide,0,,,cartesian ,0,0,basic div
+cartesian ,0,0,divide,0,,,cartesian ,0,0,basic div
+cartesian ,2,4,divide,-3,,,cartesian ,-0.666666,-1.33333333,basic div
+cartesian ,2.163118961,6.657395614,multiply,4,,,cartesian ,8.652475843,26.62958246,basic mul
+cartesian ,-3,-4,multiply,4,,,cartesian ,-12,-16,basic div
+cartesian ,0,0,multiply,4,,,cartesian ,0,0,basic div
+cartesian ,4,5,multiply,0,,,cartesian ,0,0,basic div
+cartesian ,0,0,multiply,0,,,cartesian ,0,0,basic div
+cartesian ,2,4,multiply,-3,,,cartesian ,-6,-12,basic div
+cartesian ,1.870469406,2.345494447,getLength,,,3,cartesian ,1.870469406,2.345494447,basic getlength
+cartesian ,-3,-4,getLength,,,5,cartesian ,-3,-4,basic getlength
+cartesian ,3,-4,getLength,,,5,cartesian ,3,-4,basic getlength
+cartesian ,0,4,getLength,,,4,cartesian ,0,4,basic getlength
+cartesian ,0,0,getLength,,,0,cartesian ,0,0,basic getlength
+cartesian ,100,-123,getLength,,,158.521,cartesian ,100,-123,basic getlength
+cartesian ,1.870469406,2.345494447,setLength,8,,,cartesian ,4.987918415,6.25465186,basic setlength
+cartesian ,-3,-4,setLength,6,,,cartesian ,-3.6,-4.8,basic setlength
+cartesian ,3,-4,setLength,6,,,cartesian ,3.6,-4.8,basic setlength
+cartesian ,0,4,setLength,6,,,cartesian ,0,6,basic setlength
+cartesian ,0,0,setLength,6,,,cartesian ,0,0,basic setlength
+cartesian ,0,0,setLength,0,,,cartesian ,0,0,basic setlength
+cartesian ,-3,-4,setLength,-6,,,cartesian ,3.6,4.8,basic setlength
+cartesian ,3,-4,setLength,-6,,,cartesian ,-3.6,4.8,basic setlength
+cartesian ,5,12,setLength,-26,,,cartesian ,-10,-24,basic setlength
+cartesian ,0,0,setLength,-6,,,cartesian ,0,0,basic setlength
+cartesian ,4,7,setZero,,,,cartesian ,0,0,basic zero
+cartesian ,-5,-6,setZero,,,,cartesian ,0,0,basic zero
+cartesian ,0,0,setZero,,,,cartesian ,0,0,basic zero
+cartesian ,0,7,setZero,,,,cartesian ,0,0,basic zero
+cartesian ,4,0,setZero,,,,cartesian ,0,0,basic zero
+cartesian ,3,0,setAngle,1.570796326,,,cartesian ,0,3,basic setangle
+cartesian ,0,5,setAngle,3.141592,,,cartesian ,-5,0,basic setangle
+cartesian ,3,4,setAngle,-1.570796326,,,cartesian ,0,-5,basic setangle
+cartesian ,4,5,setComponents,3,6,,cartesian ,3,6,basic setcomps
+cartesian ,0,0,setComponents,0,0,,cartesian ,0,0,basic setcomps
+cartesian ,4,5,setComponents,0,0,,cartesian ,0,0,basic setcomps
+cartesian ,0,0,setComponents,3,6,,cartesian ,3,6,basic setcomps
+cartesian ,2.493959207,3.12732593,getAngle,,,0.898,cartesian ,2.493959207,3.12732593,basic getAngle
+cartesian ,0,1,getAngle,,,1.571,cartesian ,0,1,basic getAngle
+cartesian ,0,-1,getAngle,,,-1.571,cartesian ,0,-1,basic getAngle
+cartesian ,0,0,getAngle,,,0,cartesian ,0,0,basic getAngle
+cartesian ,1.711840849,0.824379104,limit,0,1,TRUE,cartesian ,0.900968868,0.433883739,basic limit
+cartesian ,3,4,limit,10,15,TRUE,cartesian ,6,8,basic limit
+cartesian ,3,4,limit,5,5,TRUE,cartesian ,3,4,basic limit
+cartesian ,1,0,perpendicular,,,,cartesian ,0,1,basic perpendicular
+cartesian ,-1,0,perpendicular,,,,cartesian ,0,-1,basic perpendicular
+cartesian ,0,1,perpendicular,,,,cartesian ,-1,0,basic perpendicular
+cartesian ,0,-1,perpendicular,,,,cartesian ,1,0,basic perpendicular
+cartesian ,1,2,dotProduct,3,4,11,cartesian ,1,2,basic dotProduct

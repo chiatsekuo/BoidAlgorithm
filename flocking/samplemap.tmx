@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" width="80" height="60" tilewidth="20" tileheight="20" infinite="0" nextobjectid="64">
+ <objectgroup name="Object Layer 1">
+  <object id="1" name="rectangle" x="-120" y="0" width="1820" height="20"/>
+  <object id="2" name="rectangle" x="-80" y="1180" width="1800" height="20"/>
+  <object id="3" name="rectangle" x="120" y="1020" width="120" height="180"/>
+  <object id="4" name="rectangle" x="120" y="1020" width="120" height="20"/>
+  <object id="5" name="rectangle" x="220" y="860" width="20" height="180"/>
+  <object id="6" name="rectangle" x="580" y="360" width="20" height="180"/>
+  <object id="7" name="rectangle" x="400" y="700" width="20" height="180"/>
+  <object id="8" name="rectangle" x="580" y="540" width="20" height="180"/>
+  <object id="9" name="rectangle" x="400" y="700" width="200" height="20"/>
+  <object id="10" name="rectangle" x="220" y="860" width="200" height="20"/>
+  <object id="11" name="rectangle" x="780" y="340" width="200" height="120"/>
+  <object id="12" name="rectangle" x="580" y="340" width="200" height="120"/>
+  <object id="14" name="polygon" x="120" y="1020">
+   <polygon points="0,0 100,-160 100,0"/>
+  </object>
+  <object id="15" name="polygon" x="220" y="860">
+   <polygon points="0,0 180,-160 180,0"/>
+  </object>
+  <object id="18" name="rectangle" x="0" y="0" width="20" height="180"/>
+  <object id="19" name="rectangle" x="1580" y="0" width="20" height="200"/>
+  <object id="21" name="polygon" x="20" y="180">
+   <polygon points="0,0 0,-160 460,-160"/>
+  </object>
+  <object id="22" name="polygon" x="400" y="700">
+   <polygon points="0,0 120,-160 180,-160 180,0"/>
+  </object>
+  <object id="23" name="polygon" x="580" y="400">
+   <polygon points="0,0 -180,0 -60,140 0,140"/>
+  </object>
+  <object id="24" name="polygon" x="1260" y="20">
+   <polygon points="0,0 160,60 320,0"/>
+  </object>
+  <object id="25" name="polygon" x="1420" y="80">
+   <polygon points="0,0 60,120 160,120 160,-60"/>
+  </object>
+  <object id="26" name="rectangle" x="1480" y="200" width="120" height="240"/>
+  <object id="28" name="polygon" x="1480" y="440">
+   <polygon points="0,0 -60,140 120,140 120,0"/>
+  </object>
+  <object id="29" name="polygon" x="1420" y="580">
+   <polygon points="0,0 -260,80 -260,160 60,160 60,0"/>
+  </object>
+  <object id="30" name="circle" x="920" y="340" width="120" height="120">
+   <ellipse/>
+  </object>
+  <object id="31" name="polygon" x="780" y="460">
+   <polygon points="0,0 -180,260 -180,0"/>
+  </object>
+  <object id="32" name="polygon" x="600" y="720">
+   <polygon points="0,0 -180,160 -180,0"/>
+  </object>
+  <object id="33" name="polygon" x="420" y="880">
+   <polygon points="0,0 -180,0 -180,160"/>
+  </object>
+  <object id="35" name="polygon" x="240" y="1040">
+   <polygon points="0,0 180,140 0,140"/>
+  </object>
+  <object id="36" name="rectangle" x="1480" y="580" width="120" height="180"/>
+  <object id="37" name="rectangle" x="0" y="180" width="20" height="580"/>
+  <object id="38" name="polygon" x="20" y="180">
+   <polygon points="0,0 140,240 180,360 140,440 60,500 0,500"/>
+  </object>
+  <object id="41" name="polygon" x="80" y="680">
+   <polygon points="0,0 -60,80 -60,0"/>
+  </object>
+  <object id="44" name="boid" x="700" y="900">
+   <properties>
+    <property name="type" value="pigeon"/>
+   </properties>
+   <polyline points="0,0 100,-60"/>
+  </object>
+  <object id="45" name="boid" x="960" y="980">
+   <properties>
+    <property name="type" value="pigeon"/>
+   </properties>
+   <polyline points="0,0 49,-41"/>
+  </object>
+  <object id="46" name="boid" x="880" y="820">
+   <properties>
+    <property name="type" value="pigeon"/>
+   </properties>
+   <polyline points="0,0 49,-41"/>
+  </object>
+  <object id="47" name="boid" x="880" y="1040">
+   <properties>
+    <property name="type" value="pigeon"/>
+   </properties>
+   <polyline points="0,0 49,-41"/>
+  </object>
+  <object id="48" name="boid" x="1040" y="860">
+   <properties>
+    <property name="type" value="pigeon"/>
+   </properties>
+   <polyline points="0,0 49,-41"/>
+  </object>
+  <object id="49" name="boid" x="1040" y="1020">
+   <properties>
+    <property name="type" value="pigeon"/>
+   </properties>
+   <polyline points="0,0 49,-41"/>
+  </object>
+  <object id="50" name="boid" x="800" y="1020">
+   <properties>
+    <property name="type" value="pigeon"/>
+   </properties>
+   <polyline points="0,0 49,-41"/>
+  </object>
+  <object id="51" name="boid" x="860" y="880">
+   <properties>
+    <property name="type" value="pigeon"/>
+   </properties>
+   <polyline points="0,0 49,-41"/>
+  </object>
+  <object id="52" name="boid" x="900" y="740">
+   <properties>
+    <property name="type" value="pigeon"/>
+   </properties>
+   <polyline points="0,0 49,-41"/>
+  </object>
+  <object id="53" name="rectangle" x="1160" y="740" width="320" height="40"/>
+  <object id="54" name="circle" x="1100" y="660" width="120" height="120">
+   <ellipse/>
+  </object>
+  <object id="56" name="rectangle" x="400" y="340" width="200" height="60"/>
+  <object id="58" name="circle" x="380" y="340" width="60" height="60">
+   <ellipse/>
+  </object>
+  <object id="62" name="boid" x="240" y="680">
+   <properties>
+    <property name="type" value="sparrow"/>
+   </properties>
+   <polyline points="0,0 60,-60"/>
+  </object>
+  <object id="63" name="boid" x="200" y="780">
+   <properties>
+    <property name="type" value="sparrow"/>
+   </properties>
+   <polyline points="0,0 60,-60"/>
+  </object>
+ </objectgroup>
+</map>

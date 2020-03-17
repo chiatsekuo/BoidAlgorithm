@@ -1,0 +1,12 @@
+points,2.13,2.61,4.77,2.61,polar,0,2.64,cartesian ,2.64,0,E
+points,2.35,1.22,4.77,2.61,polar,0.521368,2.790788,cartesian ,2.42,1.39,NE
+points,4.77,0.6,4.77,2.61,polar,1.570796327,2.01,cartesian ,0,2.01,N
+points,1.71,0.87,0.4,1.68,polar,2.58781092,1.540194793,cartesian ,-1.31,0.81,NW
+points,3.17,1.68,0.4,1.68,polar,3.141592654,2.77001805,cartesian ,-2.77,0,W
+points,2.94,2.12,1,0.75,polar,3.756457953,2.374973684,cartesian ,-1.94,-1.37,SW
+points,1,2.86,1,0.75,polar,4.71238898,2.11,cartesian ,0,-2.11,W
+points,1,1.92,2.74,1,polar,-0.48637097,1.968247952,cartesian ,1.74,-0.92,SE
+points,7,7,7,7,polar,0,0,cartesian ,0,0,ZERO
+points,1.12,0.77,-1,1.42,polar,2.844088417,2.217408397,cartesian ,-2.12,0.65,cross y axis
+points,2.24,-1.03,1.74,1.17,polar,1.794272928,2.256102835,cartesian ,-0.5,2.2,cross x axis
+points,-0.78,-0.7,0.68,0.5,polar,0.687963312,1.88986772,cartesian ,1.46,1.2,cross origin

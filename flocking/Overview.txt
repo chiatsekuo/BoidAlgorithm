@@ -1,0 +1,36 @@
+package information
+	boid:
+		where all the information for our flocker are.
+	
+	flocking:
+		main entry point
+	
+	graphics:
+		Screen:
+			the screen object
+		GraphicsTest:
+			an area to test the screen
+		Drawable:
+			an interface that the screen can draw
+	ray:
+		Ray:
+			ray tracing algorithm for line of sight
+		RayDetetable:
+			if implemented ray will consider them in colision
+	shape:
+		different shapes for colision and drawing
+		Shape:
+			main class
+		Circle:
+			you know a circle
+	utils:
+		place for common things
+		Log:
+			out put formating class use over system.out.print
+		Utils:
+			static common functions
+	vector:
+		Vector:
+			the vector class
+		VectorTest:
+			class for the testing of the vector

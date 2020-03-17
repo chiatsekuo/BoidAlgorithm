@@ -1,0 +1,23 @@
+Checklist for Documentation
+Project Folders should Have
+	-DOCS
+		-> Analysis and Design Report = the report that we did last semester. 
+		-> Bug Report = list of fatal bugs, the logs should be listed
+		-> Project Plan = plan for the project
+		-> Release Summary = stores info about our projects (eg versions 1.0, 1.1, 1.2 which is added, developed)
+		-> Self Assessment Report = Self reflection about this project
+		-> Presentation Power Point = power point for presentation
+		
+	-RELEASE
+		-> .exe files
+		-> JAR files
+		-> ...src files...
+		-> This folder should have complete program that runs on click.
+	
+	-SOURCE
+		-> All the java files
+		-> It is like the java project file in eclipse
+	
+	-> Activity Log = the excel sheet that has distribution of work	
+	-> readme.txt = user manual
+	

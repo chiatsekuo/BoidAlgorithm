@@ -1,0 +1,21 @@
+Using the log class
+
+First get a copy of the log with Log.getLog()
+
+you can send log messages with the print command or println methods
+	
+	private Log myLog = utils.Log.getLog();
+	myLog.print("hello world");
+
+you can add an aditional number as a second argument as a flag.
+
+creating static variables flags
+for example if you want to send a debug error msg from the vector class your flags could be
+
+	private static int DEBUG_ERROR = log.DEBUG + log.ERROR + log.VECTOR;
+	
+	myLog.print("error in vector class",DEBUG_ERROR)
+	
+you can see some sample test cases in utilsTesting
+
+
